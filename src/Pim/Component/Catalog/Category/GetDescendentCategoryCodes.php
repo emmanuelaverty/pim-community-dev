@@ -8,7 +8,7 @@ use Akeneo\Component\Classification\Model\CategoryInterface;
 use Doctrine\DBAL\Connection;
 
 /**
- * Returns codes of all descendent categories of the given category.
+ * Returns codes of all descendent categories of the given category, including itself.
  *
  * @author    Yohan Blain <yohan.blain@akeneo.com>
  * @copyright 2019 Akeneo SAS (http://www.akeneo.com)
